@@ -13,3 +13,6 @@ What I learned so far
 10/8/2024
 
 - Add async await to create tasks and free up the main thread while waiting for outbound processes to finish
+- Define a repository interface which sits between our dbContext and our controllers
+- Inject a concrete repository (scoped) using DI so that it can abstract DB operations for us
+- Repositories allow for separation of concerns, which also makes testing easier 
